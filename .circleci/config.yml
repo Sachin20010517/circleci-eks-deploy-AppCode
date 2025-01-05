@@ -1,6 +1,7 @@
 version: 2.1
 
 jobs:
+
   build_and_push:
     docker:
       - image: cimg/node:20.3.1
