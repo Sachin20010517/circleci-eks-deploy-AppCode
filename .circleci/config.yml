@@ -12,9 +12,9 @@ jobs:
           command: |
             version="build-$CIRCLE_BUILD_NUM"
             echo $version
-            docker build -t $DOCKER_USERNAME/circleci-eks-deploy:$version .
+            docker build -t sachinayeshmantha/circleci-eks-deploy:$version .
             echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
-            docker push $DOCKER_USERNAME/circleci-eks-deploy:$version
+            docker push sachinayeshmantha/circleci-eks-deploy:$version
 
   Update_manifest:
     docker:
