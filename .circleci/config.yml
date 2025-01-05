@@ -31,7 +31,7 @@ jobs:
             git config --global user.email "sachinayeshmantha@gmail.com"
             git config --global user.name "Sachin20010517"
             pwd
-            cd kube_manifest
+            cd circleci-eks-deploy-Kube_manifest
             pwd
             echo $TAG
             sed -i "s/build-.*/build-$TAG/g" manifest/deployment.yaml
