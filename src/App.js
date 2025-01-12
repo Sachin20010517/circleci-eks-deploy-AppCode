@@ -76,7 +76,7 @@ class App extends Component {
                 <Container>
                     <Row className="header-row">
                         <div className="app-title">
-                            Welcome to Sachin's TODO LIST
+                            Welcome to Sachin's TODO App
                         </div>
                     </Row>
                     <hr />
